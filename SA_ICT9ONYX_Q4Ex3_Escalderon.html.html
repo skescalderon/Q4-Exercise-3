@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title>Exercise 3 </title>
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	</head>
+<style type="text/css">
+	.body{
+		font-family: 'Dongle';
+	}
+</style>
+<div class="container" style="font-size:3em;">
+<body>
+	<h1 style="font-family:Dongle;color:darkblue;">
+		<span style="background-color:grey;">
+		 JavaScript Arithmetic Operators</span></h1>
+<p><mark>num_1 = 10, num_2 = 5;</mark></p>	
+<ol type="1.">
+
+	<li>SUM =<strong id="p1"></strong></li>
+	<li>DIFF =<strong id="p2"></strong></li>
+	<li>PROD =<strong id="p3"></strong></li>
+	<li>QUOTIENT =<strong id="p4"></strong></li>
+	<li>MOD =<strong id="p5"></strong></li>
+
+</ol>
+</div>
+<script>
+
+	let a=10, b=5;
+	let sum = a + b;
+
+	alert("The sum of two numbers: " + sum);
+
+	//variable declaration;assignment of values
+	document.getElementById("p1").innerHTML = a + b;
+	document.getElementById("p2").innerHTML = b - a;
+	document.getElementById("p3").innerHTML = a * b;
+	document.getElementById("p4").innerHTML = a / b;
+	document.getElementById("p5").innerHTML = a % 2;
+</script>
+</body>
+</html>
+
